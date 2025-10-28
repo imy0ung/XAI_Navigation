@@ -39,10 +39,9 @@ env/
 .ipynb_checkpoints
 
 # Model weights (용량이 큰 경우 제외)
-weights/*.pth
-weights/*.pt
-!weights/mobile_sam.pt
-!weights/clip.pth
+weights/clip.pth
+weights/yolov7-e6e.pt
+traced_model.pt
 
 # Results and logs (매우 큰 폴더 제외)
 results/
