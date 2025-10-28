@@ -1,0 +1,19 @@
+# GradEclip 평가 설정 파일 (기존 CLIP과 동일한 조건)
+EvalConf:
+  multi_object: false
+  max_steps: 1000
+  max_dist: 1.0                    # 기존과 동일한 성공 기준
+  max_episodes: 0                  # 0이면 모든 에피소드 평가
+  is_gibson: False
+  object_nav_path: "datasets/objectnav_hm3d_v1/val/content/"  # 기존과 동일한 데이터셋
+  scene_path: "datasets/scene_datasets/"                       # 기존과 동일한 경로
+  log_rerun: False
+  use_pointnav: False
+  square_im: True
+  gradeclip_scale_factor: 1.0         # GradEclip 히트맵 스케일링 팩터 (단순화된 버전)
+
+config: [
+  ./mon/controller_habitat.yaml,   # 기존 설정 파일 재사용
+  ./mon/mapping_conf_sim.yaml,     # 기존 설정 파일 재사용  
+  ./mon/planning_conf.yaml         # 기존 설정 파일 재사용
+]
