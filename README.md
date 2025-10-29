@@ -85,7 +85,7 @@ We will update this section with figures.
 If you use or reference this work, please cite:
 
 > [Conference/Workshop Submission]  
-> "Explainable, Memory-Efficient Zero-Shot Object Navigation for Resource-Constrained Robots", CICS 2025.
+> "Lightweight Zero-Shot Object Navigation Based on Explainable AI", CICS 2025.
 
 (TBA: we will update with final citation / BibTeX once available.)
 
